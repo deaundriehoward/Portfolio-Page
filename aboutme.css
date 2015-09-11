@@ -1,0 +1,47 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.master-intro {
+  text-align: center;
+  margin-bottom: 0.1em;
+}
+.master-heading {
+  text-align: center;
+  margin-top: -0.2em;
+}
+.masterhead {
+  background-image: url('https://images.unsplash.com/photo-1438503733096-e5c5560f05ed?q=80&fm=jpg&s=f85e9819db1b47c8cda8f160a2b54fad');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #046380;
+  height: 70px;
+  font-size: 36px;
+  padding: 6em 0;
+  border-bottom: 0.2em solid black;
+  border-top: 0.2em solid black;
+}
+.intro-section, .location-section, .question-section {
+  max-width: 25em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.social > li {
+  display: inline-block; 
+}
+.footy {
+  background-color: #046380;
+  background-size: cover;
+  color: #DDD;
+  text-align: center;
+}
+.question-section h3 {
+  color: #046380;
+}
+.intro-section h1, .location-section h1, .question-section h1 {
+  color: #046380;
+}

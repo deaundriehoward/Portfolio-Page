@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background-color: #046380
+}
+/*Navigation Section*/
+.nav {
+	background-color: #046380;
+	font-family: 'Merriweather', serif;
+	font-size: 1rem;
+	letter-spacing: 0.25rem;
+	width: 100%;
+	position: fixed;
+	z-index: auto;
+}
+.nav .content {
+	height: 6.5rem;
+	padding: 0 3rem;
+}
+.nav .links {
+	float: right;
+	font-family: 'Open Sans' , serif;
+	color: #EFECCA;
+	font-size: 1rem;
+	-webkit-font-smoothing: antialiased;
+	padding: 1.5rem 0;
+}
+.nav .content .links a:visited {
+	color: white;
+}
+.nav .content .links li {
+	display: inline-block;
+	margin-left: 2rem;
+}
+.nav .links li:hover {
+	cursor: pointer;
+	color: #eee;
+}
+.nav .links > .active {
+	color: #4c5058;
+	font-weight: 700;
+}
+.nav .logo {
+	border-radius: 25px 25px 25px 25px;
+}
+.nav .aside {
+	width: 100%;
+}
+/* Quote of the Day Section */
+.qod .content {
+	background-image: url('img/background/web.jpg');
+	background-size: cover;
+	background-position: 0 bottom;
+	height: 40.938rem;
+	overflow: auto;
+	background-color: #002F2F;
+	color: #EFECCA;	
+}
+.qod h1 {
+	text-align: center;
+	font-weight: 100;
+}
+.qod h1{
+	margin-top: 6.25rem;
+}
+/* Upcoming-Projects */
+.upcoming-projects .content {
+	background-color: #046380;
+	text-align: center;
+	margin: 5rem 1rem;
+	color: #EFECCA;
+}
+.upcoming-projects .stations {
+	display: inline-block;
+	width: 20%;
+	height: 4em;
+}
+.button {
+	letter-spacing: 0.03rem;
+	 text-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #A7A37E;
+    color: #EFECCA;
+    font-size: 1.125em;
+    font-family: 'Open Sans', serif;
+}
+/* Footer Section */ 
+.social .content {
+	text-align: center;
+	margin-top: 5rem;
+	color: #EFECCA;
+}
+.social li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+}
+.social hr {
+	border: 0;
+	border-style: 2rem solid #EFECCA;
+	margin: 1rem 0;
+}
+.social .icons > li {
+    border-radius: 50rem;
+    width: 2.5rem;
+    height: 1rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+   color: ;
+}
