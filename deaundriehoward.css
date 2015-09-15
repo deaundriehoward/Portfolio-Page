@@ -32,7 +32,8 @@
 }
 .nav .content .links li {
 	display: inline-block;
-	margin-left: 2rem;
+	padding-left: 2rem;
+	
 }
 .nav .links li:hover {
 	cursor: pointer;
@@ -81,7 +82,7 @@
 	letter-spacing: 0.03rem;
 	 text-shadow: none;
     border-style: none;
-    border-radius: 50px;
+    border-radius: 1.235rem;
     padding: 16px 26px;
     line-height: 1.33;
     background-color: #A7A37E;
